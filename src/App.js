@@ -1,9 +1,11 @@
-import './App.css';
+
+import Body from './components/Body';
 
 function App() {
+
   return (
     <div className="App">
-     <h1 className=' bg-gray-600'>Hello fom React</h1>
+     <Body/>
     </div>
   );
 }
